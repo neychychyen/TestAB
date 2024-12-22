@@ -2,23 +2,12 @@
 	--font_color: #37A;
 	--button_color: #369;
 	--button_color_hover: #38B;
-	--tm-nav: #00000000;
-	--tm-nav_hov: #ffffff30;
-}
-
-
-
-:root{
-	--font_color: #b0b0b0;
-	--font_color_hov: #f0f0f0;
-	--button_color: #d1d1d1; /* Светло-серый для кнопок */
-	--button_color_hover: #c0c0c0; /* Чуть темнее при наведении */
-	--tm-nav: #00000000;
-	--tm-nav_hov: #ffffff30;
-	--tm-but_color: #00000060;
-	--tm-but_color_active: #000000;
 
 }
+
+
+
+
 
 
 .text_justify{
@@ -38,53 +27,3 @@
 
 
 
-.tm-text-primary, .tm-icon, .tm-navbar.scroll .tm-nav-link{
-	color:var(--font_color);
-}
-
-
-.tm-btn-submit:hover, .tm-btn-submit:focus {
-	background-color: var(--button_color_hover);
-}
-
-.tm-btn-primary:hover, .tm-btn-primary:focus {
-  color: var(--tm-but_color_active);
-  background-color: var(--button_color_hover);
-}
-
-
-.tm-btn-primary, .tm-btn-submit, .current, .tm-navbar.scroll .tm-nav-link:hover, .tm-navbar.scroll .tm-nav-link.current, .tm-nav-link:hover {
-  color: var(--tm-but_color);
-  background-color: var(--button_color);
-}
-
-.tm-navbar.scroll .navbar-brand, .navbar-brand{
-	background-color: var(--tm-nav);
-	color:var(--font_color);
-}
-
-
-.navbar-brand.current:hover{
-	background-color: var(--tm-nav);
-	color:var(--font_color_hov);
-}
-
-.navbar-brand.current:active{
-	color:var(--font_colo_hovr);
-	background-color: var(--tm-nav);
-}
-
-
-.tm-down-arrow{
-
-	background: var(--tm-nav);
-}
-
-.tm-down-arrow:hover, .tm-down-arrow:focus {
-  background: var(--tm-nav_hov);
-}
-
-
-.navbar-brand:hover, .tm-navbar.scroll .navbar-brand:hover{
-	color: var(--tm-but_color_active);
-}
