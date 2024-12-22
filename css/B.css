@@ -83,3 +83,8 @@
 .tm-down-arrow:hover, .tm-down-arrow:focus {
   background: var(--tm-nav_hov);
 }
+
+
+.navbar-brand:hover, .tm-navbar.scroll .navbar-brand:hover{
+	color: var(--tm-but_color_active);
+}
